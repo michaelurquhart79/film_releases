@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import FilmList from '../components/FilmList'
+import FilmLink from '../components/FilmLink'
 
 class FilmBox extends Component{
 
@@ -41,6 +42,7 @@ class FilmBox extends Component{
       <div className="film-box">
         <h2>Upcoming Film Releases for UK</h2>
         <FilmList data={this.state.data}/>
+        <FilmLink/>
       </div>
     )
   }
