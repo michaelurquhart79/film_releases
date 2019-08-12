@@ -4,11 +4,11 @@ class FilmItem extends Component{
 
   render(){
     return(
-      <p>List Item</p>
+      <li>
+      <a href={this.props.url} target="_blank">{this.props.name}</a>
+      </li>
     )
   }
-
-
 }
 
 export default FilmItem;
