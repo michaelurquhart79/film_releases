@@ -7,7 +7,6 @@ function App() {
   return (
     <div>
       <FilmBox/>
-      <p>TEST TEXT</p>
       <FilmLink/>
     </div>
   );

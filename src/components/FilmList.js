@@ -11,7 +11,6 @@ class FilmList extends Component{
 
     return(
       <div className="film-list">
-        <h2>Hi, I'm the film list component</h2>
         <ul>
           {filmNodes}
         </ul>
