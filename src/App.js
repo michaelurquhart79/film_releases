@@ -1,9 +1,13 @@
 import React from 'react';
 import './App.css';
+import FilmBox from './containers/FilmBox'
 
 function App() {
   return (
-    <p>TEST TEXT</p>
+    <div>
+      <FilmBox/>
+      <p>TEST TEXT</p>
+    </div>
   );
 }
 
