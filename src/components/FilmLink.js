@@ -6,7 +6,9 @@ class FilmLink extends Component{
   render() {
     return(
       <div className="film-link">
-        <a href="https://www.imdb.com/calendar/?region=gb" target="_blank">View more upcoming releases</a>
+        <button>
+          <a href="https://www.imdb.com/calendar/?region=gb" target="_blank">View more upcoming releases &gt;&gt;</a>
+        </button>
       </div>
     )
   }
